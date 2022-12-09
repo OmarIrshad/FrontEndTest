@@ -18,7 +18,7 @@ export default function FindPage(props) {
     <div>
       <NavBar navItems={navItems} cart = {props.cart} isCustomer={false} home={"/"} />
       <h1>Find Nearest Location</h1>
-      <Map></Map>
+      {/* <Map></Map> */}
     </div>
   );
 };
