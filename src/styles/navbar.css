@@ -1,0 +1,103 @@
+.topnav button {
+  all: unset;
+}
+
+.topnav a {
+  all: unset;
+}
+
+.topnav {
+  overflow: hidden;
+  padding: 10px 30px 20px 5px;
+  /* border-bottom : 3px solid #000; */
+  box-shadow: 0 4px 2px -1px gray;
+}
+
+.topnav .logo {
+  display: inline-block;
+  float: left;
+  width: 10%;
+  height: 10%;
+}
+
+
+.topnav .elem {
+  width: 8.5%;
+  margin-top: 10px;
+  margin-left: 25px;
+  background-color: #e60e33;
+  display: inline-block;
+  cursor: pointer;
+  height: fit-content;
+  border-radius: 100px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 27px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+#normal .topnav .elem {
+  background-color: #e60e33;
+}
+#blind .topnav .elem {
+  background-color: orange;
+}
+
+#normal .topnav .elem:hover {
+  color: #e60e33;
+  outline-color: #e60e33;
+  background-color: white;
+  outline-style: solid;
+}
+#blind .topnav .elem:hover {
+  color: orange;
+  outline-color: orange;
+  background-color: white;
+  outline-style: solid;
+}
+
+#normal .topnav .accessibility {
+  float: right;
+  background-color: white;
+  outline-style: solid; 
+  color: #e60e33;
+  outline-color: #e60e33;
+}
+#blind .topnav .accessibility {
+  float: right;
+  background-color: white;
+  outline-style: solid; 
+  color: orange;
+  outline-color: orange;
+}
+
+#normal .topnav .accessibility:hover {
+  background-color: #e60e33;
+  color: white;
+}
+#blind .topnav .accessibility:hover {
+  background-color: orange;
+  color: white;
+}
+
+.topnav .elem:hover {
+  background-color: white;
+  color: #e60e33;
+  outline-color: #e60e33;
+  outline-style: solid;
+}
+
+.topnav .accessibility {
+  float: right;
+  background-color: white;
+  color: #e60e33;
+  outline-color: #e60e33;
+  outline-style: solid;
+}
+
+.topnav .accessibility:hover {
+  background-color: #e60e33;
+  color: white;
+}

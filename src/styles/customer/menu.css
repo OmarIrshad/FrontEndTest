@@ -1,0 +1,17 @@
+  .gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    /* overflow: hidden; */
+    column-gap: 10%;
+    row-gap: 5%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .griditem {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

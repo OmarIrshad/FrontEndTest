@@ -1,0 +1,79 @@
+
+  .Increment,
+  .Decrement {
+    background-color: #e60e33;
+    cursor: pointer;
+    height: fit-content;
+    border-radius: 100px;
+    color: #f2f2f2;
+    text-align: start;
+    width:10px;
+    padding: 5px 10px;
+    padding-right:21px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+
+  /* .Decrement{
+    margin-left:10px;
+  } */
+
+  .CartItemCard{
+    border-bottom: solid;
+    border-color:#e60e33;
+    margin-top:5px;
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+  }
+  .CartItemRight{
+    /* display: flex;
+    flex-direction: column; */
+    /* margin-top:-300px; */
+    /* margin-bottom:20px; */
+    margin-bottom:100px;
+    margin-top:-100px;
+  }
+  
+
+  .CartItemCard .cartbuttons{
+    display:flex;
+    flex-direction: row;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+
+
+  .cartImg {
+    height: 200px;
+    width: 100px;
+    margin-left:5%;
+    margin-top:-30px;
+    margin-bottom:100px;
+
+   
+ }
+ .CartItem_Name{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: serif;
+    
+  }
+  .ItemPrice{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align:center;
+    margin-top:15px;
+    font-family: serif;
+  }
+  .CartQuantity{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align:center;
+    margin-top:10px;
+    font-family: serif;
+
+
+  }

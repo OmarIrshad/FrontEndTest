@@ -1,0 +1,111 @@
+.menutopnav {
+    overflow: hidden;
+    position: sticky;
+    margin-top: 5px;
+    /* padding: 3px 29px 3px 3px; */
+    /* border-bottom : 3px s #000; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    margin-bottom: 50px;
+}
+
+.menutopnav {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    /* top: 115px; */
+    background: white;
+    text-align: center;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99;
+    background: white;
+}
+
+.menutopnav button {
+    all: unset;
+    width: 10%;
+    margin-top: 5px;
+    margin-left: 25px;
+    display: inline-block;
+    cursor: pointer;
+    height: 75px;
+    text-align: center;
+    padding: 18px 10px;
+    text-decoration: none;
+    font-size: 35px;
+    transition: 0.3s ease;
+}
+#normal .menutopnav button {
+    color: #e60e33;
+}
+#blind .menutopnav button {
+    color: orange;
+}
+
+.menutopnav button:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+#normal .menutopnav button:hover {
+    color: #e60e33;
+}
+#blind .menutopnav button:hover {
+    color: orange;
+}
+
+.menutopnav {
+    overflow: hidden;
+    padding: 5px 30px 5px 5px;
+    /* border-bottom : 3px solid #000; */
+    /* box-shadow: 0 4px 2px -1px gray; */
+}
+
+.menutopnav .logo {
+    display: inline-block;
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+
+
+.menutopnav a {
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 25px;
+    display: inline-block;
+    cursor: pointer;
+    height: fit-content;
+    border-radius: 100px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 27px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+#normal .menutopnav a {
+    background-color: #e60e33;
+}
+#blind .menutopnav a {
+    background-color: orange;
+}
+
+#normal .menutopnav a:hover {
+    background-color: white;
+    color: #e60e33;
+    outline-color: #e60e33;
+    outline-style: solid;
+}
+#normal .menutopnav a:hover {
+    background-color: white;
+    color: orange;
+    outline-color: orange;
+    outline-style: solid;
+}
