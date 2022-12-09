@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/FrontEndTest/static/css/main.2283f2cd.css",
+    "main.js": "/FrontEndTest/static/js/main.dace300b.js",
+    "static/media/CFASandwich.png": "/FrontEndTest/static/media/CFASandwich.0df13313fa3018536580.png",
+    "static/media/cfaHomeSand.png": "/FrontEndTest/static/media/cfaHomeSand.2da3a17078c6b0f940ab.png",
+    "static/media/cfaHomeCoke.png": "/FrontEndTest/static/media/cfaHomeCoke.8dd86d24deda32dcd1b5.png",
+    "static/media/_0000s_0009_Final__0026_CFA_PDP_Grilled-Deluxe-Sandwich_1085.png": "/FrontEndTest/static/media/_0000s_0009_Final__0026_CFA_PDP_Grilled-Deluxe-Sandwich_1085.ba75ee57fb9453d00dc6.png",
+    "static/media/navbar-loog.png": "/FrontEndTest/static/media/navbar-loog.ceda253489f39f46c7e0.png",
+    "static/media/emptycart.png": "/FrontEndTest/static/media/emptycart.6e520fb70c5010f9a19d.png",
+    "index.html": "/FrontEndTest/index.html",
+    "main.2283f2cd.css.map": "/FrontEndTest/static/css/main.2283f2cd.css.map",
+    "main.dace300b.js.map": "/FrontEndTest/static/js/main.dace300b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2283f2cd.css",
+    "static/js/main.dace300b.js"
+  ]
+}
